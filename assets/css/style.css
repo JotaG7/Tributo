@@ -243,3 +243,100 @@ a:hover {
     margin-top: 20px ;
     font-size: 20px;
 }
+
+@media (max-width:1099px) {
+
+
+    .containercolumn .subtext_img .subtitle_img {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+
+    }
+
+    .border {
+
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+    .border .image1 {
+
+        width: 200px;
+        height:200px;
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        margin-right: 150px;
+    }
+    
+    .container, .image2, .image3, .image4 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .timeline1, .timeline2, .timeline3, .timeline4, 
+.timeline5, .timeline6, .timeline7, .timeline8 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFF;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+}
+
+@media (min-width:320px) and (max-width:430px){
+
+    .container {
+
+        height: auto;
+        width: auto;
+        margin: 0;
+
+    }
+
+    .border {
+
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+
+    .subtext_img {
+
+        font-size: 17px;
+    }
+
+    .timeline p {
+
+        font-size: 17px;
+    }
+
+    .inf p {
+
+        font-size: 17px;
+
+    }
+
+
+    .footer_inf .footer_im, .footer_ref, .footer_insp {
+
+        font-size: 17px;
+    }
+
+    .footer_ref p {
+
+        font-size: 17px;
+    }
+}
